@@ -1,0 +1,6 @@
+python-jsbeautifier (1.6.4-1) unstable; urgency=low
+
+  * New package (Closes: #840670)
+
+ -- Sebastien Delafond <seb@debian.org>  Thu, 13 Oct 2016 19:05:22 +0200
+
