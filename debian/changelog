@@ -1,6 +1,11 @@
+python-jsbeautifier (1.6.4-2) unstable; urgency=medium
+
+  * Re-word package description in debian/control
+
+ -- Sebastien Delafond <seb@debian.org>  Fri, 14 Oct 2016 14:27:33 +0200
+
 python-jsbeautifier (1.6.4-1) unstable; urgency=low
 
   * New package (Closes: #840670)
 
- -- Sebastien Delafond <seb@debian.org>  Thu, 13 Oct 2016 19:05:22 +0200
-
+ -- Sebastien Delafond <seb@debian.org>  Fri, 14 Oct 2016 14:27:16 +0200
