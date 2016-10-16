@@ -1,3 +1,9 @@
+python-jsbeautifier (1.6.4-3) unstable; urgency=medium
+
+  * Correct debian/watch to strip leading "v" in version number
+
+ -- Sebastien Delafond <seb@debian.org>  Sun, 16 Oct 2016 11:50:46 +0200
+
 python-jsbeautifier (1.6.4-2) unstable; urgency=medium
 
   * Re-word package description in debian/control
