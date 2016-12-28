@@ -1,6 +1,10 @@
 #!/usr/bin/make -f
 
 export PYBUILD_NAME=jsbeautifier
+export PYBUILD_INSTALL_ARGS_python2 = --install-scripts=/dev/null
+export PYBUILD_TEST_TESTS=0
 
 %:
-	dh $@ --with python2,python3
+	dh $@ --with python2,python3 --buildsystem=pybuild
+
+override_dh_auto_test:
