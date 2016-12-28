@@ -1,3 +1,10 @@
+python-jsbeautifier (1.6.4-4) unstable; urgency=medium
+
+  * Provide python3 package
+  * Update Vcs-Git URL
+
+ -- Sebastien Delafond <seb@debian.org>  Wed, 28 Dec 2016 10:11:10 +0100
+
 python-jsbeautifier (1.6.4-3) unstable; urgency=medium
 
   * Correct debian/watch to strip leading "v" in version number
