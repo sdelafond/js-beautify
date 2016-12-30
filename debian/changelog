@@ -1,3 +1,10 @@
+python-jsbeautifier (1.6.4-5) unstable; urgency=medium
+
+  * Apply patch from Mattia Rizzolo to properly ship usr/bin/jsbeautifier
+    in its own package (Closes: #848609)
+
+ -- Sebastien Delafond <seb@debian.org>  Fri, 30 Dec 2016 15:35:15 +0100
+
 python-jsbeautifier (1.6.4-4) unstable; urgency=medium
 
   * Provide python3 package
