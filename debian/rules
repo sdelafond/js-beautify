@@ -1,10 +1,10 @@
 #!/usr/bin/make -f
 
+d = $(CURDIR)/debian/jsbeautifier/usr/bin
 export PYBUILD_NAME=jsbeautifier
-export PYBUILD_INSTALL_ARGS_python2 = --install-scripts=/dev/null
-export PYBUILD_TEST_TESTS=0
+export PYBUILD_AFTER_INSTALL_python2 = rm -rv {destdir}/usr/bin
+export PYBUILD_AFTER_INSTALL_python3 = mkdir -pv $d && mv -v {destdir}/usr/bin/js-beautify $d
+export PYBUILD_DISABLE=test
 
 %:
 	dh $@ --with python2,python3 --buildsystem=pybuild
-
-override_dh_auto_test:

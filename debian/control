@@ -10,16 +10,26 @@ Vcs-Browser: https://anonscm.debian.org/git/collab-maint/python-jsbeautifier.git
 
 Package: python-jsbeautifier
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}
-Description: JavaScript unobfuscator and beautifier
+Depends: ${misc:Depends}, ${python:Depends}
+Description: JavaScript unobfuscator and beautifier (python2)
  Beautify, unpack or deobfuscate JavaScript, leveraging popular online
  obfuscators.
+ .
+ This is the Python 2 version of the package.
 
 Package: python3-jsbeautifier
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${python3:Depends}
+Depends: ${misc:Depends}, ${python3:Depends}
 Description: JavaScript unobfuscator and beautifier (python3)
  Beautify, unpack or deobfuscate JavaScript, leveraging popular online
  obfuscators.
  .
  This is the Python 3 version of the package.
+
+Package: jsbeautifier
+Section: misc
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}, python3-jsbeautifier
+Description: JavaScript unobfuscator and beautifier
+ Beautify, unpack or deobfuscate JavaScript, leveraging popular online
+ obfuscators.
