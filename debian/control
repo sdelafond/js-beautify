@@ -20,6 +20,8 @@ Description: JavaScript unobfuscator and beautifier (python2)
 Package: python3-jsbeautifier
 Architecture: all
 Depends: ${misc:Depends}, ${python3:Depends}
+Replaces: python-jsbeautifier (<< 1.6.4-5)
+Breaks: python-jsbeautifier (<< 1.6.4-5)
 Description: JavaScript unobfuscator and beautifier (python3)
  Beautify, unpack or deobfuscate JavaScript, leveraging popular online
  obfuscators.
@@ -29,7 +31,7 @@ Description: JavaScript unobfuscator and beautifier (python3)
 Package: jsbeautifier
 Section: misc
 Architecture: all
-Depends: ${misc:Depends}, ${python3:Depends}, python3-jsbeautifier
+Depends: ${misc:Depends}, ${python3:Depends}, python3-jsbeautifier (>= 1.6.4-5)
 Description: JavaScript unobfuscator and beautifier
  Beautify, unpack or deobfuscate JavaScript, leveraging popular online
  obfuscators.
