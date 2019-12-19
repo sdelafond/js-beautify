@@ -1,8 +1,12 @@
-python-jsbeautifier (1.6.4-8) UNRELEASED; urgency=medium
+python-jsbeautifier (1.6.4-8) unstable; urgency=medium
 
+  [ Ondřej Nový ]
   * d/changelog: Remove trailing whitespaces
 
- -- Ondřej Nový <onovy@debian.org>  Mon, 01 Oct 2018 10:07:27 +0200
+  [ Sébastien Delafond ]
+  * Set maintainer to Debian QA Group
+
+ -- Sebastien Delafond <seb@debian.org>  Thu, 19 Dec 2019 14:54:10 +0100
 
 python-jsbeautifier (1.6.4-7) unstable; urgency=medium
 
